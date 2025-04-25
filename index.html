@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela de Educación Artística "Victor Grippo" Junín</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --institucional: #a63232;
+      --visuales: #4caf50;
+      --musicales: #03a9f4;
+      --dramaticas: #ff9800;
+      --literatura: #ffeb3b;
+      --audiovisuales: #9c27b0;
+      --movimiento: #f48fb1;
+    }body {
+  margin: 0;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(rgba(166, 50, 50, 0.7), rgba(166, 50, 50, 0.7)), url('fondo.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: var(--institucional);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #811d1d;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+}
+
+.formulario input, .formulario select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+.taller-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <h1>Escuela de Educación Artística</h1>
+    <p>"Victor Grippo" - Junín, Buenos Aires</p>
+  </header>  <nav>
+    <a href="#institucional">Institucional</a>
+    <a href="#grippitos">Grippitos</a>
+    <a href="#escuelita">Escuelita</a>
+    <a href="#adolescentes">Adolescentes</a>
+    <a href="#adultos">Adultos</a>
+    <a href="#noticias">Noticias</a>
+    <a href="#inscripcion">Inscripción</a>
+    <a href="#contacto">Contacto</a>
+  </nav>  <section id="institucional">
+    <h2>Institucional</h2>
+    <p>Información sobre cuerpo directivo, preceptorías, horarios, departamentos y plantel docente.</p>
+  </section>  <section id="grippitos">
+    <h2>Grippitos</h2>
+    <p>Niños/as de 5-6 años. Introducción a Música, Visuales, Teatro y Literatura. Clases dos veces por semana a las 17:30.</p>
+  </section>  <section id="escuelita">
+    <h2>Escuelita</h2>
+    <p>Niños/as de 7 a 12 años. Talleres a contraturno. Niveles A1-A4 (mañana), B1-B4 y C1-C4 (tarde).</p>
+  </section>  <section id="adolescentes">
+    <h2>Adolescentes</h2>
+    <p>Variedad de talleres por departamento. Elegí el tuyo.</p>
+    <div class="taller-box" style="border-color: var(--visuales)">
+      <h3>Taller de Cerámica</h3>
+      <p style="color: var(--visuales)">Visuales</p>
+    </div>
+    <!-- Agregar más talleres similares -->
+  </section>  <section id="adultos">
+    <h2>Adultos</h2>
+    <p>Propuestas para adultos y adultos mayores en teatro, cerámica, coro y más.</p>
+  </section>  <section id="noticias">
+    <h2>Noticias y Calendario</h2>
+    <p>Fechas de inscripción, feriados, eventos y actividades especiales.</p>
+    <!-- Aquí irá el calendario dinámico en una futura versión con JS -->
+  </section>  <section id="inscripcion">
+    <h2>Inscripción</h2>
+    <form class="formulario">
+      <h3>Datos del Interesado</h3>
+      <label>Nombre:</label><input type="text">
+      <label>Apellido:</label><input type="text">
+      <label>Nombre a elección:</label><input type="text">
+      <label>Documento:</label><input type="text">
+      <label>Fecha de nacimiento:</label><input type="date">
+      <label>Domicilio:</label><input type="text">
+      <label>Localidad:</label><input type="text">
+      <label>Taller:</label><input type="text"><h3>Datos de la Familia</h3>
+  <!-- Repetir para padre, madre, tutor con campos similares -->
+
+  <h3>Actividad Institucional</h3>
+  <label>¿A qué colegio asiste?</label><input type="text">
+  <label>¿Nivel?</label><input type="text">
+  <label>¿Curso?</label><input type="text">
+
+  <br><br>
+  <input type="submit" value="Enviar inscripción">
+</form>
+
+  </section>  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: <a href="mailto:escuela@grippojunin.edu.ar">escuela@grippojunin.edu.ar</a></p>
+    <p>Redes: Instagram, Facebook, Twitter</p>
+  </section>  <footer>
+    &copy; 2025 Escuela de Educación Artística "Victor Grippo" - Junín, Buenos Aires
+  </footer></body>
+</html>
